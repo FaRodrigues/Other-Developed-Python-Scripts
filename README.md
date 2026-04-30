@@ -1,2 +1,6 @@
-# Other-Python-Scripts-Developed
- 
+# Other Python Scripts Developed
+
+1.	Script that configures the Keysight 53230A time interval counter for cable delay measurement routine using SCPI (Standard Commands for Programmable Instruments). This script automates the equipment's measurement process via USB, LAN, or GPIB and stores individual measurements, allowing the calculation of the average, median, and associated uncertainty at the end. This script was used by the Inmetro team in the calibration campaign for the LRTE GNSS receiver;
+2.	Script that configures the classic SR620 time/frequency interval counter for cable delay measurement using SCPI (Standard Commands for Programmable Instruments). It automates the measurement process via SERIAL or GPIB and stores the averages of individual batch measurements, allowing for the calculation of the consolidated mean, median, and associated uncertainty. This script was used by the Inmetro team in the calibration campaign for the LRTE GNSS receiver;
+3.	Script that automatizes the access to the NASA CDDIS (Crustal Dynamics Data Information System) website and downloads RINEX navigation files in IGS format. Since the access to the CDDIS website requires an account with a username and password I created a .netrc file as recommended by CDDIS to enable access with this script. This script was used by the Inmetro team in the calibration campaign for the LRTE GNSS receiver; 
+4.	Script for using the MQTT (Message Queuing Telemetry Transport) protocol to transmit GNSS data. The MQTT protocol, commonly used in the context of IoT (Internet of Things), was used to experimentally transmit GNSS data from the UTC (INXE) publisher to different subscribers.
