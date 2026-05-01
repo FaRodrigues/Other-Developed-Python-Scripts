@@ -1,4 +1,4 @@
-# Other Python Scripts Developed
+# Other Developed Python Scripts
 
 1.	**Keysight_53230A.py** - Script that configures the Keysight 53230A time interval counter for cable delay measurement routine using SCPI (Standard Commands for Programmable Instruments). This script automates the equipment's measurement process via USB, LAN, or GPIB and stores individual measurements, allowing the calculation of the average, median, and associated uncertainty at the end. This script was used by the Inmetro team in the calibration campaign for the LRTE GNSS receiver;
 2.	**STANFORD_SR620.py** - Script that configures the classic SR620 time/frequency interval counter for cable delay measurement using SCPI (Standard Commands for Programmable Instruments). It automates the measurement process via SERIAL or GPIB and stores the averages of individual batch measurements, allowing for the calculation of the consolidated mean, median, and associated uncertainty. This script was used by the Inmetro team in the calibration campaign for the LRTE GNSS receiver;
